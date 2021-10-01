@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+:root{
+        --font-secundary: "Josefin Slab"; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: var(--font-secundary);
+    color:gray;
+    text-align: center;
+    
+    
+}
+
+
+h2{
+    
+    font-family:var(--font-secundary);
+    color: rgb(29, 41, 211);
+    align-items: center;
+    font-weight: bold;
+}
+
+
+
+p{
+    font-family:var(--font-secundary);
+    
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+
+.card-primeiro{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.cards{
+    width: 250px;
+    height: 300px;
+    background-color: #ffff;
+    
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    
+}
+
+
+.titulo{
+    font-family: var(--font-secundary);;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    color: gray;
+}
+
+
+h4{
+    font-family: var(--font-secundary);;
+    color:springgreen;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+
+h5{
+    font-family: var(--font-secundary);;
+    color:red;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+
